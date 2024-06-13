@@ -34,38 +34,13 @@ import '../styles/globle.css';
 				</linearGradient>
 			</defs>
 		</svg>
-		<a href="/">Home</a>
+        <a href="/">Home</a>
 		<a href="/about/">About</a>
 		<a href="/blog/">Blog</a>
         <a href="/notes/">笔记</a>
-		<h1>Welcome to <span class="text-gradient">Astro</span></h1>
-		<h2>P211012544 朱奕</h2>
-		<p class="instructions">
-			To get started, open the directory <code>src/pages</code> in your project.<br />
-			<strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
-		</p>
-		<ul role="list" class="link-card-grid">
-			<Card
-				href="https://docs.astro.build/"
-				title="Documentation"
-				body="Learn how Astro works and explore the official API docs."
-			/>
-			<Card
-				href="https://astro.build/integrations/"
-				title="Integrations"
-				body="Supercharge your project with new frameworks and libraries."
-			/>
-			<Card
-				href="https://astro.build/themes/"
-				title="Themes"
-				body="Explore a galaxy of community-built starter themes."
-			/>
-			<Card
-				href="https://astro.build/chat/"
-				title="Community"
-				body="Come say hi to our amazing Discord community. ❤️"
-			/>
-		</ul>
+		<h1>关于我</h1>
+		<p>在这个页面，我将展示有关我的一些信息。</p>
+		
 	</main>
 </Layout>
 
@@ -96,8 +71,15 @@ import '../styles/globle.css';
 		margin-bottom: 1em;
 	}
 	h2 {
-		text-align: center;
-    }
+		text-align: center; }
+
+    p{
+    font-size: 16px; */
+    text-indent:2em;
+    color: red;
+
+
+}
 	.text-gradient {
 		background-image: var(--accent-gradient);
 		-webkit-background-clip: text;
@@ -130,3 +112,4 @@ import '../styles/globle.css';
 		padding: 0;
 	}
 </style>
+
