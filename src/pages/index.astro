@@ -2,6 +2,8 @@
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
 import '../styles/globle.css';
+import NavigationBar from '../components/Navigation Bar.astro'
+import Footer from '../components/Footer.astro' 
 ---
 
 <Layout title="Welcome to Astro.">
@@ -34,12 +36,9 @@ import '../styles/globle.css';
 				</linearGradient>
 			</defs>
 		</svg>
-		<a href="/">Home</a>
-		<a href="/about/">About</a>
-		<a href="/blog/">Blog</a>
-        <a href="/notes/">笔记</a>
+		<NavigationBar />
 		<h1>Welcome to Astro！<span class="text-gradient">这里是：朱奕的博客</span></h1>
-		<h2>P211012544 朱奕</h2>
+		<h2>P211012544 朱奕<a href="https://www.baidu.com"></a></h2>
 		<p class="instructions">
 			Keep your face always toward the sunshine
 and shadows will fall behind you 
@@ -70,6 +69,8 @@ and shadows will fall behind you
 			/>
 		</ul>
 	</main>
+	<Footer />
+
 </Layout>
 
 <style>

@@ -2,6 +2,8 @@
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
 import '../styles/globle.css';
+import NavigationBar from '../components/Navigation Bar.astro'
+import Footer from '../components/Footer.astro' 
 ---
 
 <Layout title="Welcome to Astro.">
@@ -34,10 +36,7 @@ import '../styles/globle.css';
 				</linearGradient>
 			</defs>
 		</svg>
-        <a href="/">Home</a>
-		<a href="/about/">About</a>
-		<a href="/blog/">Blog</a>
-        <a href="/notes/">笔记</a>
+		<NavigationBar />
 		<h1>网络日志</h1>
 		<p>在这个页面，将展示有关我的博客内容。</p>
 		<h2>2024年6月13日</h2>
@@ -94,6 +93,7 @@ import '../styles/globle.css';
 			<h3>当你给予巨蟹座足够的爱和共鸣时，你就会发现他们其实是非常温暖和可爱的人，他们会把私人的爱全权交付与你。
 			因为你们之间真的没有壁垒。</h3>
 	</main>
+	<Footer />
 </Layout>
 
 <style>
